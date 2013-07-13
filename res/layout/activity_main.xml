@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+            android:orientation="vertical"  
+            android:layout_width="fill_parent"  
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <com.baidu.mapapi.map.MapView
+                    android:id="@+id/bmapsView"
+                    android:layout_width="1092dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.80"
+                    android:clickable="true" >
+                </com.baidu.mapapi.map.MapView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.83"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.02"
+                        android:text="@string/history"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.02"
+                        android:text="@string/report"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.02"
+                        android:text="@string/error"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_weight="0.02"
+                        android:text="@string/help"
+                        android:textSize="30sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.02"
+                        android:text="Sport"
+                        android:textSize="25sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.02"
+                        android:text="Oil-Save"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+  
+</LinearLayout> 
